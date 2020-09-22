@@ -1,0 +1,64 @@
+body {
+    display: flex;
+    justify-content: center;
+    color: #656565;
+    font-family: 'Baloo Tammudu 2', cursive;
+}
+
+h2 {
+    color: black;
+}
+
+.imageHeader {
+    color: white;
+    font-size: 500%;
+    display: flex;
+    justify-content: center;
+    width: 850px;
+    height: 450px;
+    background-image: url("nasapixel.jpeg");
+    background-size: cover;
+    margin: 20px 0;
+}
+
+.infoBox {
+    width: 850px;
+    height: 324px;
+    background-color: #E6E6E6;
+    line-height: 200%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 20px 0;
+    
+}
+
+
+.contactForm {
+    line-height: 80%;
+}
+
+.textBox {
+    height: 80px;
+    width: 217px;
+}
+
+.submitButton {
+	background-color: #4D4D4D;
+	display: inline-block;
+	cursor: pointer;
+	color: white;
+	font-family: 'Baloo Tammudu 2', cursive;
+	font-size:18px;
+    padding:0px 18px;
+    height: 32px;
+    border: none;
+    text-align: center;
+}
+.submitButton:hover {
+	background-color:#656565;
+}
+.submitButton:active {
+	position:relative;
+	top:1px;
+}
