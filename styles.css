@@ -41,6 +41,7 @@ h2 {
 .textBox {
     height: 80px;
     width: 217px;
+    resize: none;
 }
 
 .submitButton {
